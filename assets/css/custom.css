@@ -1,0 +1,30 @@
+.page-heading {
+    display: inline-block;
+    color: #2C3E50;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 0 15px 0;
+}
+
+.frame {
+    width: 100%;
+    height: 80vh;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background: #fff;
+    color: #fff !important;
+}
+
+.nav-active {
+    background: #fff;
+    color: #18bc9c !important;
+}
