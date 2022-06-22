@@ -29,7 +29,7 @@ class AppController extends CI_Controller {
 
         $data['app_name'] = $this->app_name;
 
-        $data['link'] = "http://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fReceivingDailyBreakdown&rs:Command=Render";
+        $data['link'] = "https://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fReceivingDailyBreakdown&rs:Command=Render";
 
 		$this->load->view('layouts/app', $data);
 
@@ -41,7 +41,7 @@ class AppController extends CI_Controller {
 
         $data['app_name'] = $this->app_name;
 
-        $data['link'] = "http://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fSupplierDeliveries&rs:Command=Render";
+        $data['link'] = "https://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fSupplierDeliveries&rs:Command=Render";
 
 		$this->load->view('layouts/app', $data);
 
@@ -53,7 +53,7 @@ class AppController extends CI_Controller {
 
         $data['app_name'] = $this->app_name;
 
-        $data['link'] = "http://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fSupplierTonageSummary&rs:Command=Render";
+        $data['link'] = "https://{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fSupplierTonageSummary&rs:Command=Render";
 
 		$this->load->view('layouts/app', $data);
 
