@@ -27,7 +27,7 @@ $config['efi_server'] = '10.150.1.142';
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8081/ims';
+$config['base_url'] = 'https://imsv2.efi.net.ph';
 
 /*
 |--------------------------------------------------------------------------
