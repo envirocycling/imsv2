@@ -11,7 +11,7 @@
 
   </head>
 
-<body>
+<body style="background-color: #f1f5f9 !important;">
 
   <?php include_once APPPATH . 'views/partials/navbar.php';?>
 

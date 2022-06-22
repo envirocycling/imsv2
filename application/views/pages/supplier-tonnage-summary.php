@@ -2,9 +2,9 @@
     <span class="page-heading" >Supplier Tonnage Summary</span>
 
     <iframe 
-    src="http://efiserver/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fSupplierTonageSummary&rs:Command=Render" 
+    src="<?= $link ?>" 
     frameborder="0"
-    class="frame">
-
+    class="frame"
+    style="background: #fff; padding: 10px; border-radius: 5px">
     </iframe>
 </div>

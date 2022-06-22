@@ -1,6 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$config['app_name'] = 'EFI IMS';
+
+$config['efi_server'] = '10.150.1.142';
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://imsv2.efi.net.ph';
+$config['base_url'] = 'http://localhost:8081/ims';
 
 /*
 |--------------------------------------------------------------------------
