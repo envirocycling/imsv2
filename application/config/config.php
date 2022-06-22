@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['app_name'] = 'EFI IMS';
 
-$config['efi_server'] = '10.150.1.142';
+$config['efi_server'] = 'efiserver';
 
 /*
 |--------------------------------------------------------------------------
