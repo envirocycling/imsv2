@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $config['app_name'] = 'EFI IMS';
 
-$config['efi_server'] = 'https://9ff4-161-49-212-118.ap.ngrok.io/';
+$config['efi_server'] = 'https://imsefi.pagekite.me';
 
 /*
 |--------------------------------------------------------------------------
