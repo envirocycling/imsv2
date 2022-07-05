@@ -26,7 +26,7 @@ function is_active($url) {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link <?= is_active('/supplier-tonnage-summary') ? 'nav-active' : '' ?>" href="<?= site_url('/supplier-tonnage-summary') ?>">Supplier Tonnage</a>
+          <a class="nav-link <?= is_active('/receiving-daily-breakdown') ? 'nav-active' : '' ?>" href="<?= site_url('/supplier-tonnage-summary') ?>">Supplier Tonnage</a>
         </li>
       </ul>
     </div>
