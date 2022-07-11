@@ -15,7 +15,7 @@
 
   <?php include_once APPPATH . 'views/partials/navbar.php';?>
 
-  <div class="container mt-4" id="app">
+  <div class="container-fluid mt-4" id="app">
   <?php include_once APPPATH . $content_view;?>
   </div>
 

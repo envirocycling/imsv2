@@ -7,7 +7,7 @@ function is_active($url) {
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand" href="#"></a>
         
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,7 +26,7 @@ function is_active($url) {
         </li>
 
         <li class="nav-item">
-          <a class="nav-link <?= is_active('/receiving-daily-breakdown') ? 'nav-active' : '' ?>" href="<?= site_url('/supplier-tonnage-summary') ?>">Supplier Tonnage</a>
+          <a class="nav-link <?= is_active('/supplier-tonnage-summary') ? 'nav-active' : '' ?>" href="<?= site_url('/supplier-tonnage-summary') ?>">Supplier Tonnage</a>
         </li>
       </ul>
     </div>
