@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['receiving-daily-breakdown'] = 'AppController/receiving_daily_breakdown';
 $route['supplier-deliveries'] = 'AppController/supplier_deliveries';
 $route['supplier-tonnage-summary'] = 'AppController/supplier_tonnage_summary';
+$route['branches-tonnage'] = 'AppController/branches_tonnage';

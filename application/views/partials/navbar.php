@@ -28,6 +28,10 @@ function is_active($url) {
         <li class="nav-item">
           <a class="nav-link <?= is_active('/supplier-tonnage-summary') ? 'nav-active' : '' ?>" href="<?= site_url('/supplier-tonnage-summary') ?>">Supplier Tonnage</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link <?= is_active('/branches-tonnage') ? 'nav-active' : '' ?>" href="<?= site_url('/branches-tonnage') ?>">Branches Tonnage</a>
+        </li>
       </ul>
     </div>
 

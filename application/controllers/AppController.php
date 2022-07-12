@@ -57,5 +57,17 @@ class AppController extends CI_Controller {
 
 		$this->load->view('layouts/app', $data);
 
+	}
+
+	public function branches_tonnage() {
+
+		$data['content_view'] = 'views/pages/branches-tonnage.php';
+
+        $data['app_name'] = $this->app_name;
+
+        $data['link'] = "{$this->efi_server}/EFIReports/Pages/ReportViewer.aspx?%2fEFIReports%2fBranchesTonage&rs:Command=Render";
+
+		$this->load->view('layouts/app', $data);
+
 	}	
 }
