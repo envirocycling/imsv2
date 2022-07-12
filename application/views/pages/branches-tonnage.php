@@ -1,5 +1,5 @@
 <div class="jumbotron">
-    <span class="page-heading" >Branches Tonnage/span>
+    <span class="page-heading" >Branches Tonnage</span>
 
     <iframe 
     src="<?= $link ?>" 
